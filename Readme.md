@@ -28,7 +28,7 @@ The embedded code in the markdown creates a `<script>` tag like this:
 ```
 
 > #### Enable Scripts in your Markdown Content
-> Markdown Monster by default doesn't allow `<script>` tags to be rendered. Embedded Gists use `<script>` tags and so you have to enable script embedding by setting the **EditorAllowRenderScriptTags** flag in the Markdown Monster settings. Goto **Tools -> Settings** and find the **EditorAllowRenderScriptTags** key and set it to **true**.
+> Markdown Monster by default doesn't allow `<script>` tags to be rendered. Embedded Gists use `<script>` tags and so you have to enable script embedding by setting the **EditorAllowRenderScriptTags** flag in the Markdown Monster settings. Goto **Tools -> Settings** and find the **AllowRenderScriptTags** key and set it to **true**.
 
 ### Configuration
 This addin is still a bit rough in its early release and there's no configuration UI. In order to configure the addin credentials if you want to post non-anonymous Gists you can edit the `PasteCodeAsGistAddin.json` file. To find the file go to **Tools -> Open Configuration Folder** and find **PasteCodeAsGistAddin.json**. Inside of this file you can set your Github username and user token to allow posting Gists under your account name:
